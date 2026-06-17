@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		body,h1,h2,h3,p{margin:0; padding: 0}
+		.img-wrap{position: relative;}
+		.img-wrap .uni{width: 100%; display: block;}
+		.img-wrap .book{width: 80%; position: absolute;  display: block; top: 5%; left: 11%}
+		.img-wrap .book1{width: 15%; position: absolute;  display: block; top: 23.5%; left: 27.5%; animation: float 2s ease-in-out infinite; }
+		.img-wrap .text1{width: 20%; position: absolute;  display: block; top: 55%; left: 26.5%;}
+		.img-wrap .text2{width: 20%; position: absolute;  display: block; top: 60.5%; left:
+		 26.5%;}
+		.img-wrap .text3{width: 20%; position: absolute;  display: block; top: 21.5%; left: 57%;}
+		.img-wrap .text4{width: 20%; position: absolute;  display: block; top: 28%; left: 57%;}
+		.img-wrap .text5{width: 17%; position: absolute;  display: block; top: 30%; left: 58.5%;}
+		   
+    	@keyframes float {
+        0%   { transform: translateY(0); }      
+        50%  { transform: translateY(-15px); }  
+        100% { transform: translateY(0); }      
+    	}
+	</style>
+</head>
+<body>
+	<section>
+	<div class="img-wrap">
+		<img src="img1.png" class="uni">
+		<img src="img2.png" class="book">
+		<img src="img3.png" class="book1">
+		<img src="img4.png" class="text1">
+		<img src="img5.png" class="text2">
+		<img src="img6.png" class="text3">
+		<img src="img7.png" class="text4">
+		<img src="img8.png" class="text5">
+
+	</div>
+ </section>
+</body>
+</html>
